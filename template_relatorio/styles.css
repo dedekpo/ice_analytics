@@ -1,0 +1,79 @@
+* {
+    color: rgb(36, 36, 36);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+th, td {
+    border: 1px solid;
+}
+
+table {
+    width: 100%;
+}
+  
+.titulo-curso {
+    height: 70px;
+    background-color: #4a5394;
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+td {
+    height: 50px;
+    text-align: center;
+}
+
+th {
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.engaj-table {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.engaj-table > table {
+    width: 80%;
+}
+
+.info {
+    padding: 30px 20px;
+}
+
+.semanas{
+    padding: 10px;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+.checked {
+    color: orange;
+}
+
+.user-data {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    margin-left: 30px;
+    line-height: 1.6;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.title {
+    text-align: center;
+    margin: 10px;
+}

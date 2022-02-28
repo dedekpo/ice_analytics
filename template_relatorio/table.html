@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="script.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h1 class="title">Relatório ICE Play</h1>
+  <div class="user-data">
+    <span><p>Aluno: </p><p><b>{{ Nome }}</b></p></span>
+    <span><p>Matrícula: </p><p><b>{{ Matrícula }}</b></p></span>
+    <span><p>E-mail: </p><p><b>{{ E-mail }}</b></p></span>
+    <span><p>Escola: </p><p><b>{{ Escola }}</b></p></span>
+  </div>
+  <div class="engaj-table">
+    <table>
+      <tr>
+        <th colspan="4" class="titulo-curso">{{ Nome do curso }}</th>
+      </tr>
+  
+      <tr>
+        <th colspan="2">Engajamento</th>
+        <th>Nota até o momento</th>
+        <th>Progresso</th>
+      </tr>
+      <tr>
+        <td colspan="2"> 
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </td>
+        <td>{{ Nota }}</td>
+        <td>{{ Progresso }}</td>
+      </tr>
+  
+      <tr>
+        <td colspan="4" class="info">
+          Lembre-se que a nota varia toda semana. Temos as avaliações de portfólio e atividades que geram uma grande oscilação na nota. Fique atento aos prazos para conseguir uma boa nota.
+        </td>
+      </tr>
+  
+      <tr>
+        <td colspan="4" class="semanas">
+          Últimas 5 semanas
+        </td>
+      </tr>
+  
+      <tr>
+        <th>Módulo</th>
+        <th>Engajamento</th>
+        <th>Nota</th>
+        <th>Prazo</th>
+      </tr>
+  
+      <tr>
+        <td>{{ N módulo }}</td>
+        <td> 
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </td>
+        <td> {{ Nota }} </td>
+        <td> {{ Prazo }} </td>
+      </tr>
+  
+      <tr>
+        <td>{{ N módulo }}</td>
+        <td> 
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </td>
+        <td> {{ Nota }} </td>
+        <td> {{ Prazo }} </td>
+      </tr>
+  
+      <tr>
+        <td>{{ N módulo }}</td>
+        <td> 
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span> 
+        </td>
+        <td> {{ Nota }} </td>
+        <td> {{ Prazo }} </td>
+      </tr>
+  
+      <tr>
+        <td>{{ N módulo }}</td>
+        <td> 
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </td>
+        <td> {{ Nota }} </td>
+        <td> {{ Prazo }} </td>
+      </tr>
+  
+      <tr>
+        <td>{{ N módulo }}</td>
+        <td> 
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </td>
+        <td> {{ Nota }} </td>
+        <td> {{ Prazo }} </td>
+      </tr>
+  
+    </table>
+  </div>
+</div>
+
+</body>
+</html>
